@@ -2,9 +2,7 @@
 
 int main()
 {
-	int a =5;
-	std::cout<<"Hello World!\n";
-	std::cout<< "a = " << a << '\n';
+std::cout<<"Hello World!\n";
 
-	retun 0;
+retun 0;
 }
