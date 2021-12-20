@@ -1,0 +1,131 @@
+Welcome to HTML
+ also known as Hyper Text Markup Language
+ it is the standard langauge used to design webpages by describing the structure of it
+ it consists of a series of elements (labeled) that ultimately are displayed on the page 
+ 
+
+<!DOCTYPE html>  --- This element is a declarant. It tells the browser that it is a HTML5 webpage
+
+<html>  --- this is the root element
+<head>  --- contains meta information about the page
+
+<title>Page Title</title> --- specifies the title of a webpage
+</head> --- closing indicator of head
+<body>  --- container of visible contents 
+
+<h1>This is a Heading</h1> ---- Largest header, ranging from h1 to h6
+<p>This is a paragraph.</p> ---- Paragraph
+
+</body> --- closing indicator body
+</html> --- closing indicator of html
+
+To create a file for html, can use Notepad, save as .htm or .html file--makes it easier to edit or access
+
+Links
+ <a href="https://www.w3schools.com">This is a link</a>
+
+Images
+ The source file (src), alternative text (alt), width, and height are provided as attributes:
+ <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+ 
+Elements can be nested
+Never skip the end tag!
+Html is not case sensitive
+
+<br> line break
+
+All elements can have attributes that provide additional information about the element
+They are specified by the start tage
+name="value"
+use lowercase attributes
+Always quote attribute values
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+Href Attribute 
+  specifies the url --- <a href="https://www.w3schools.com">Visit W3Schools</a>
+  
+src attribute
+  specifies the path --- <img src="img_girl.jpg">
+  only two ways to specify the URL :
+    a Absolute URL - Links to an external image that is hosted on another website
+    b Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. 
+      If the URL begins without a slash, it will be relative to the current page
+      
+Weight and Height attributes
+  <img src="img_girl.jpg" width="500" height="600">
+  
+Alt attribute
+   <img src="img_girl.jpg" alt="Girl with a jacket">
+   <img src="img_typo.jpg" alt="Girl with a jacket">
+   
+Style attribute
+  <tagname style="property:value;">
+  The property is a CSS property. The value is a CSS value.
+  <p style="color:red;">This is a red paragraph.</p>
+  
+Language Attribute
+  <!DOCTYPE html>
+  <html lang="en">
+  
+Title attribute
+  <p title="I'm a tooltip">This is a paragraph.</p>
+  
+Bigger Heading
+  <h1 style="font-size:60px;">Heading 1</h1>
+
+Paragraphs
+
+You cannot be sure how HTML will be displayed.
+Large or small screens, and resized windows will create different results.
+With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+The browser will automatically remove any extra spaces and lines when the page is displayed
+
+<hr> Horizontal Rules
+defines a thematic break in an HTML page, and is most often displayed as a horizontal rule
+
+Line brakes <br> , it has no end tag
+The HTML <pre> element defines preformatted text.
+
+CSS Background Color 
+
+  <body style="background-color:powderblue;">
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+  </body>
+or 
+  <h1 style="background-color:powderblue;">This is a heading</h1>
+  <p style="background-color:tomato;">This is a paragraph.</p>
+  
+Text Color
+  CSS
+  <h1 style="color:blue;">This is a heading</h1>
+  <p style="color:red;">This is a paragraph.</p>
+  
+Text Font
+  <h1 style="font-family:verdana;">This is a heading</h1>
+  <p style="font-family:courier;">This is a paragraph.</p>
+  
+Text Size
+  <h1 style="font-size:300%;">This is a heading</h1>
+  <p style="font-size:160%;">This is a paragraph.</p> 
+  
+Text Alignment -- horizontal
+  <h1 style="text-align:center;">Centered Heading</h1>
+  <p style="text-align:center;">Centered paragraph.</p>
+  
+Formatting
+  several elements included: 
+  <b> - Bold text    ----   <b>This text is bold</b>
+  <strong> - Important text  ---- <strong>This text is important!</strong>
+  <i> - Italic text  ---- <i>This text is italic</i>
+  <em> - Emphasized text --- <em>This text is emphasized</em>
+  <mark> - Marked text  --- <p>Do not forget to buy <mark>milk</mark> today.</p>
+  <small> - Smaller text  --- <small>This is some smaller text.</small>
+  <del> - Deleted text  --- <p>My favorite color is <del>blue</del> red.</p> -- Browsers will usually strike a line through deleted text
+  <ins> - Inserted text --- 
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+  <sub> - Subscript text -- <p>This is <sub>subscripted</sub> text.</p>
+  <sup> - Superscript text ---- <p>This is <sup>superscripted</sup> text.</p>
+  
+  
+  Contiued,...
